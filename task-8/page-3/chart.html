@@ -1,13 +1,43 @@
 <html>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script src="data.js"></script> 
 <body>
 
-<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
-
-<script>
-//Chart Js Implementation or you can use any other library also [https://www.npmjs.com/search?q=HTML5%20charts]
-</script>
 <!--Visualise the chart based on the data from data.js-->
-<center><h3>Place your graph here</h3></center>
+<canvas id="myChart" style="width:100%;max-width:600px;position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+margin:auto;"></canvas>
+
+<script type="text/javascript">
+//Chart Js Implementation or you can use any other library also [https://www.npmjs.com/search?q=HTML5%20charts]
+    var data = getRandomJson();
+    var barColors = [
+  "rgba(0,0,255,1.0)",
+  "rgba(0,255,0,1.0)",
+  "rgba(255,0,255,1.0)",
+  "rgba(500,100,0,1.0)",
+  "rgba(0,20,100,1.0)",
+    ];
+    new Chart("myChart", {
+    type: "pie",
+    data: {
+        labels: [data[0]["pizza"], data[1]["pizza"],data[2]["pizza"], data[3]["pizza"], data[4]["pizza"]],
+        datasets: [{
+        backgroundColor: barColors,
+        data: [data[0]["sold"], data[1]["sold"],data[2]["sold"], data[3]["sold"], data[4]["sold"]]
+        }]
+    },
+    options: {
+        title: {
+        display: true,
+        text: "Sale of Pizza"
+        }
+    }
+    });
+</script>
+
 </body>
 </html>

@@ -9,27 +9,21 @@
   </head>
   <body>
     <!--On click of Button-1 store something in localStorage-->
-    <a href="https://i.imgur.com/STpu6cx.jpeg" download>
+    <a href="https://i.imgur.com/STpu6cx.jpeg" download="download.jpeg">
       <button class="button" >Button-1</button>
     </a>
-    <script>
-      /*
-      onclick="download('https://i.imgur.com/STpu6cx.jpeg')"
-      function download(source)
-      {
-        const fileName = "img.jped";
-        var el = document.createElement("a");
-        el.setAttribute("href", source);
-        el.setAttribute("download", fileName);
-        //document.body.appendChild(el);
-        //el.click();
-        el.remove();*/
-      }
-    </script>
     <!--On click of Button-2 show a popup with current time-->
     <button class="button" onclick="window.alert(new Date().toLocaleTimeString())">Button-2</button>
     <!--On click of Button-3 change the background-->
-    <button class="button" onclick="document.body.style.backgroundImage = 'url(images/cat.jpg)'">Button-3</button>
+    <button class="button" onclick="changebg()">Button-3</button>
+    <script>
+      function changebg(){
+        document.body.style.backgroundImage = 'url(images/cat.jpg)';
+        document.body.style.backgroundSize = '800px 600px';
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundRepeat = 'no-repeat';
+      }
+    </script>
     <!--On click of Button-4 refresh the page-->
     <button class="button" onclick="window.location.reload()">Button-4</button>
     <!--On click of Button-5 open a new window-->
@@ -45,7 +39,7 @@
         }
       }
     </script>
-    <form>
+    <form action="../page-3/chart.html">
       <!--set form action-->
       <button class="button">Next</button>
     </form>
