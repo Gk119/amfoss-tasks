@@ -20,7 +20,8 @@
 4. Used `cat North.txt East.txt > Location-Coordinate.txt` to create Location-Coordinate.txt file in Coordinates-Location directory.
 5. 
 !["Location Image"](Location.png?raw=true "Location Image")
-6. 	1. Used `git clone https://github.com/Gk119/amfoss-tasks.git` to clone the GitHub repository to my laptop
+6. 	
+	1. Used `git clone https://github.com/Gk119/amfoss-tasks.git` to clone the GitHub repository to my laptop
 	2. Created folder task-2 in the repository and copied the directory Coordinates-Location to it.
 	3. Used `git add --all` and commited the changes using `git commit -m "Added task-2 files"`
 	4. The repository was pushed back to GitHub using `git push origin main`.
