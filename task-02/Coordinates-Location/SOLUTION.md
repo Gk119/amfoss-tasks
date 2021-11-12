@@ -17,10 +17,10 @@
 		1. Used `cp EastCoordinate.txt ../EastCoordinate.txt` to copy it to one directory above i.e Coordinate-Location directory.
 		2. Used `rm EastCoordinate.txt` to delete the EastCoordinate.txt file from East directory.
 		3. Navigated one directory up with `cd ..` and renamed EastCoordinate.txt using `mv EastCoordinate.txt East.txt`.
-4. Used `cat North.txt East.txt > Location-Coordinate.txt` to create Location-Coordinate.txt file in Coordinates-Location directory.
+4. Used `cat North.txt East.txt > Location-Coordinate.txt` to create Location-Coordinate.txt file in Coordinates-Location directory with the contents in `North.txt` and `East.txt`.
 5. 
 !["Location Image"](Location.png?raw=true "Location Image")
-6. 	
+6. Git terminal commands used:
 	1. Used `git clone https://github.com/Gk119/amfoss-tasks.git` to clone the GitHub repository to my laptop
 	2. Created folder task-2 in the repository and copied the directory Coordinates-Location to it.
 	3. Used `git add --all` and commited the changes using `git commit -m "Added task-2 files"`

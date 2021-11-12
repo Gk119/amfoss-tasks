@@ -1,0 +1,1 @@
+Solving this task was fun as I learned a lot of new Linux terminal commands. I also learned further about git and how it works while solving this task and how to format .md files properly by making the SOLUTIONS.md file. Even though this task was one of the easiest I learned a lot of useful stuff doing it. 
