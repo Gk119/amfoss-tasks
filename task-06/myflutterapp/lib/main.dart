@@ -5,6 +5,8 @@ import 'package:introduction_screen/introduction_screen.dart';
 
 void main() => runApp(App());
 
+const int themeColor = 0xFFD7CCC8; //Theme Color //0xFFD6CBC7
+
 const MaterialColor primaryBlack = MaterialColor(
   _blackPrimaryValue,
   <int, Color>{
@@ -64,19 +66,24 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
       titleTextStyle: TextStyle(fontSize: 28.0, fontWeight: FontWeight.w700),
       bodyTextStyle: bodyStyle,
       descriptionPadding: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 16.0),
-      pageColor: Color(0xFFD6CBC7),
+      pageColor: Color(themeColor),
       imagePadding: EdgeInsets.zero,
     );
 
-    const int themeColor = 0xFFD6CBC7; //Theme Color
-
     return IntroductionScreen(
       key: introKey,
-      globalBackgroundColor: Color(0xFFD6CBC7),
+      globalBackgroundColor: Color(themeColor),
       pages: [
         PageViewModel(
           title: "YOGA SURGE",
-          body: "Welcome to Yoga world",
+          //body: "Welcome to Yoga world",
+          bodyWidget: Center(
+            child: Column(children: <Widget>[
+              Text("Welcome to Yoga world\n", style: TextStyle(fontSize: 20)),
+              Text("Inhale the future, exhale the past",
+                  style: TextStyle(fontSize: 16))
+            ]),
+          ),
           image: _buildImage('page1.png'),
           decoration: pageDecoration,
         ),
@@ -141,7 +148,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Welcome'),
-        backgroundColor: Color(0xFFD6CBC7),
+        backgroundColor: Color(themeColor),
       ),
       body: Center(
         child: Column(
@@ -153,9 +160,10 @@ class HomePage extends StatelessWidget {
               style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
             ),
             const Padding(
-                padding: EdgeInsets.only(left: 10.0, right: 10.0),
+                padding: EdgeInsets.only(left: 15.0, right: 15.0),
                 child: Text(
-                  '''\nHello! I am a First year CSE-AI student who has just started learning Flutter and this is my first App. 
+                  '''\nHello! I am a First year CSE-AI student who has just started learning Flutter and this is my first App. I have reading books about philosophy, politics, science, fiction, classics and reading random stuff on the internet,coding, tinkering with hobbyist sensors, working-out etc as hobbies. I also like watching good movies and series. I live in Kollam, Kerala [No I havent visited the campus yet :( ]. Growing up I was passionate about technology and now I am happy that I am studying a course related to it and hope to work and contribute to the field as much as I can
+                    
                 ''',
                   textAlign: TextAlign.center,
                 )),
