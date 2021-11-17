@@ -6,10 +6,8 @@ This is my first time creating mobile applications. The introduction screen Flut
 <img src="images\UI.gif"></img>
 </div>
 
-| No. | Image |
-| --- | ----------- |
-| #1 | <img src="images\page_01.png" style="width:360px;height:780px"></img> |
-| #2 | <img src="images\page_02.png" style="width:360px;height:780px"></img> |
-| #3 | <img src="images\page_03.png" style="width:360px;height:780px"></img> |
-| #4 | <img src="images\page_04.png" style="width:360px;height:780px"></img> |
+| No. | Image | No. | Image |
+| --- | ----------- | --- | ----------- |
+| #1 | <img src="images\page_01.png" style="width:360px;height:780px"></img> | #2 | <img src="images\page_02.png" style="width:360px;height:780px"></img> |
+| #3 | <img src="images\page_03.png" style="width:360px;height:780px"></img> | #4 | <img src="images\page_04.png" style="width:360px;height:780px"></img> |
 | #5 | <img src="images\page_05.png" style="width:360px;height:780px"></img> |
