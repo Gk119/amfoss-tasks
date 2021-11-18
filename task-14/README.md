@@ -1,0 +1,2 @@
+## Bandit
+This task was easy but confusing. Like task-02 for this also I had to learn many new terminal commands and use them. The levels in which we had to find a specific file/line was really confusing and had to try out many commands and their combinations to get it right. But eventully I was able to solve it.
