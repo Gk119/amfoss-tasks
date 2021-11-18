@@ -1,0 +1,2 @@
+## Personal Website
+This was an interesting tasks as we can create our own website to showcase our skills and host it on Github. After finishing this task I also started working on some of my previous projects and doing the final touchups to upload it in Github and show it in this site along with the amFOSS tasks. I look forward to decorating this website with many projects and relevant interests one day :)   
