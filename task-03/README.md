@@ -1,3 +1,4 @@
+## Programming
 This is the task I enjoyed doing the most as I like solving coding challenges. I had stayed up a lot of late nights trying to solve the problems and thinking of different approaches. Even though some of the problems were challenging I managed to solve them after a lot of work.
 
 There were many times when the code worked but the exceeded the time limit for some cases. For those problems I had to optimise the code a lot to or in some cases had to take completely different approach to solving the problem keeping the run time in mind. For few other questions though I unnecessarily overcomplicated the the steps where I couldve solved it in an easier way in less time. 
