@@ -9,9 +9,28 @@
   </head>
   <body>
     <!--On click of Button-1 store something in localStorage-->
-    <a href="https://i.imgur.com/STpu6cx.jpeg" download="download.jpeg">
+    <!--a href="https://i.imgur.com/STpu6cx.jpeg" download="download.jpeg">
       <button class="button" >Button-1</button>
-    </a>
+    </a-->
+    <button class="button" onclick="download()">Button-1</button>
+    <script>
+      function toDataURL(url) {
+        return fetch(url).then((response) => 
+        {
+            return response.blob();
+        }).then(blob => {
+            return URL.createObjectURL(blob);
+        });
+        }
+      async function download() {
+        const a = document.createElement("a");
+        a.href = await toDataURL("https://i.imgur.com/STpu6cx.jpeg");
+        a.download = "download.jpeg";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
+    </script>
     <!--On click of Button-2 show a popup with current time-->
     <button class="button" onclick="window.alert(new Date().toLocaleTimeString())">Button-2</button>
     <!--On click of Button-3 change the background-->
