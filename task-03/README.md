@@ -20,6 +20,9 @@ This is the problem in which I spent the most time solving. Initially I used an 
 #### 5.Aver Max 
 This was an easy problem in which we can get the answer without actually calculating for it. Also this is the only hackerank challege which I solved with Python instead of C++.
 
-Rest all problems were fairly easy to do except 'Ram and Gifts' which I am not able to solve.       
+#### 6. Ram and Gifts
+This was the hardest problem of all for me. I got a working algorithm after trying a lot but still many cases were getting time out error. After a lot of modification I managed to reduce time out error to 3 cases. I even tried storing all the output in a buffer to print together to reduce the printing time but that didnt change anything so left that method. Finally I found an algorithm on internet to get a formula to calculate the nth term of a second order reccursive function which is whats in the question on 18th Nov and I thought of trying that method out but I got busy with other tasks and by then the challenge closed. This was the only problem I wasnt able to solve in the challenge.
+
+Rest all problems were fairly easy to do.       
 
 
