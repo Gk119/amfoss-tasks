@@ -1,0 +1,2 @@
+## Installing Ubuntu
+In the starting was a skeptical about installing Ubuntu for dual booting as I was worried if something would happen to my laptop, but reading about it online and watching some youtube videos I installed it. I like the interface of Ubuntu and its smoother and faster than windows. Its also easier to install packages and new programs in Ubuntu. I do all the tasks and most of my coding in this now. I didnt face any problem while installing it but it took a log restart and reorganising C: drive for windows to work properly again.  
