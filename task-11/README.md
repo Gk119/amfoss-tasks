@@ -1,0 +1,2 @@
+## Poster Design
+This is the task I kept to do in the last. I didnt knew about canva before. Now since I used it, its very easy to use and has many animations and gifs in it. Ill be using this from now onwards for projects.
