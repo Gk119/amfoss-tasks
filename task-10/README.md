@@ -1,0 +1,2 @@
+## CS50
+This was one of the most fun task to do. I plan on completing the rest of the CS50 course after completing the tasks. I leared about the different type of elections, how to work with bitmap files and also made 4 working filters in the course and managed to extract all the jpeg files from raw data in pset4. 
